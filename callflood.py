@@ -29,7 +29,6 @@ def call(num, cid):
         """
         testcall = CallFile(
                 trunk_type = 'SIP',
-                trunk_name = 'flowroute',
                 callerid_num = cid,
                 number = num,
                 application = 'Hangup',
