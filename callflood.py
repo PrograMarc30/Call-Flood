@@ -28,7 +28,6 @@ def call(num, cid):
         Also spoofs caller ID to a random 10 digit number.
         """
         testcall = CallFile(
-                trunk_type = 'SIP',
                 callerid_num = cid,
                 number = num,
                 application = 'Hangup',
