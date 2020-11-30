@@ -38,7 +38,7 @@ def call(num, cid):
         )
         testcall.run()
 
-def main():
+def mainfunc():
         """
         Control the application logic.
         """
@@ -69,4 +69,4 @@ if __name__ == '__main__':
         """
         Program execution begins here.
         """
-        main()
+        mainfunc()
